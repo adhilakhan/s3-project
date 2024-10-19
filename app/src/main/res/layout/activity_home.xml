@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#25CABE"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".home">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="460dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="#BEEBEA">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="LOG IN"
+            android:textAlignment="gravity"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#156148"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="110dp"
+            android:background="#77F0EA"
+            android:backgroundTint="#97E9E0"
+            android:hint="Email"
+            android:inputType="text|textEmailAddress"
+            android:textAlignment="center">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/passwd"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="180dp"
+            android:background="#77F0EA"
+            android:backgroundTint="#97E9E0"
+            android:hint="Password"
+            android:inputType="text|textPassword"
+            android:textAlignment="center">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="210dp"
+            android:layout_height="58dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="320dp"
+            android:text="New User? Please Sign Up "
+            android:textAlignment="center"
+            android:textColor="#156148"
+            android:textSize="22dp"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="245dp"
+            android:backgroundTint="#52B1A5"
+            android:text="LOG IN"
+            android:textColor="#156148"
+            app:cornerRadius="10dp"
+            />
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="380dp"
+            android:backgroundTint="#52B1A5"
+            android:text="SIGN UP"
+            android:textColor="#156148"
+            app:cornerRadius="10dp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
